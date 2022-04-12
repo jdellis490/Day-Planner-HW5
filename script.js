@@ -25,5 +25,3 @@ for (i = 9; i < 18; i++) {
 $('.saveBtn').on('click', function(){
        localStorage.setItem($(this).siblings("div.hour").attr("data-hour"), $(this).siblings("textarea").val())
    });
-
-   console.log($('.').siblings('div.hour').attr('data-hour'));
