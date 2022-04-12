@@ -19,5 +19,5 @@ if (hourNow == $("#hour-9").attr("data-hour")){
 
 
 $('.saveBtn').on('click', function(){
-    localStorage.setItem($(this).siblings("time-block").attr("data-hour"), $(this).siblings("text-area").val())
+    localStorage.setItem($(this).siblings("div.hour").attr("data-hour"), $(this).siblings("text-area").val())
 });
