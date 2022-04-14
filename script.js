@@ -1,4 +1,3 @@
-
 // Header live time
 var now = moment().format('dddd, MMMM Do YYYY, h:mm:ss a');
 var headerEL = document.querySelector('#currentDay');
@@ -9,7 +8,7 @@ var hourNow = moment().hour();
 console.log(hourNow);
 console.log($("#hour-9").attr("data-hour"))
 
-// Might have to loop to change the background of each text area
+// Loop to change the background of each text area based on time of day
 
 for (i = 9; i < 18; i++) {
     if (i == hourNow){
@@ -23,5 +22,5 @@ for (i = 9; i < 18; i++) {
 
 //Save button to get text area input to local storage
 $('.saveBtn').on('click', function(){
-       localStorage.setItem($(this).siblings("div.hour").attr("data-hour"), $(this).siblings("textarea").val())
+       localStorage.setItem($(this).siblings("div.hour").attr("data-hour"),($(this).siblings("textarea").val()))
    });
