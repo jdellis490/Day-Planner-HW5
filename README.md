@@ -8,4 +8,4 @@ I built this project to further understand and test my knowledge of JQuery synta
 
 To use this project, one must simply copy and paste this URL in their browser: https://jdellis490.github.io/Day-Planner-HW5/
 
-Here is a screenshot: ![screenshot](
+Here is a screenshot: ![screenshot](/assets/Day-Planner-Screenshot.png)
